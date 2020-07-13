@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> </head>
+    
+<body>
+    <center>
+    <div class="outer">
+        <div class="heading">
+            <h1>IFSC CODE SEARCH TOOL</h1>
+        </div>
+        <BR>
+        <div class="inner">
+            <label>Select your bank</label>
+            <select id='bank' >
+                <option>Select Bank</option>
+            </select>
+                                   
+        </div>
+        <BR>
+        <div class="inner">
+            <label>State in which bank is situated</label>
+                <select id="state">
+                    <option>Select State</option>
+                </select>        
+        </div>
+        <BR>
+        <div class="inner">
+            <label>District in which bank is situated</label>
+                <select id="district">
+                    <option>Select District</option>
+                </select>            
+        </div>
+        <BR>
+        <div class="inner">
+            <label>Branch of the bank within district</label>
+                <select id="branch">
+                    <option value="default">Select Branch</option>
+                </select>               
+        </div>
+        <BR>
+        <div class="innerFind">
+            <button id='ifscFind'>Find Now</button>
+        </div>
+        <div class="disp">
+            <label id='ifscDisplay'></label>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="add.js"></script>
+</center>
+</body>
+</html>
